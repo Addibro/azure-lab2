@@ -19,5 +19,11 @@ variable "location" {
 variable "name" {
   description = "The name to use for the different parts of the deployment"
   type        = string
-  default     = "almeapp2"
+  default     = "almeapp3"
+}
+
+variable "container_name" {
+  description = "The name of the container that will be deployed to the Azure Web App"
+  type        = string
+  default     = "azure-lab"
 }
